@@ -1,3 +1,1 @@
-# marioeluigi 
-
-projeto mario e luigi
+https://gyhbelchior.github.io/marioeluigi/
