@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;700&display=swap" rel="stylesheet">
+  <title>Super Mario</title>
+</head>
+
+<body>
+
+  <div class="caixa-video-mario">
+    <video src="video.mp4" autoplay muted loop></video>
+    <div class="mascara-video"></div>
+  </div>
+
+
+
+  <div class="caixa-principal">
+    <img src="logo.png" alt="logo do super maior" class="logo-mario">
+    <p>Encanadores Mario & Luigi - Resolvendo Seus Problemas Com Estilo!</p>
+    <p>Você já se encontrou em uma situação de emergência com encanamento? Vazamentos inesperados, canos entupidos
+      ou torneiras que não param de pingar? Não se preocupe, porque estamos aqui para salvar o dia! Apresentamos a
+      vocês os encanadores mais famosos do Reino dos Cogumelos - Mario e Luigi!</p>
+    <button onclick="cliqueiNoBotao()">Fale Conosco</button>
+  </div>
+
+  <img src="mario.png" alt="logo mario e luigi" class="imagem-mario-luigi">
+
+  <form class="fale-conosco">
+      <h1>Fale Conosco</h1>
+      <input placeholder="Seu nome" type="text">
+      <input placeholder="Telefone" type="tel">
+      <textarea placeholder="Digite o seu problema aqui"></textarea>
+      <button>Enviar formulário</button>
+  </form>
+
+<div class="mascara-form"></div>
+
+
+
+</body>
+
+<script>
+
+  let formulario = document.querySelector(".fale-conosco")
+  /* criamos a variável formulário para a minha variável saber onde procurar para realizar a ação. O document é o modo do javascript falar com o documento que esteja em html*/
+
+  let mascara = document.querySelector(".mascara-form")
+
+
+function cliqueiNoBotao() {
+  formulario.style.left = "700px" /* ele vai no meu formulario, troca o estilo que nesse caso é o left */
+  mascara.style.visibility = "visible"
+}
+
+function sumirFormulario() {
+  formulario.style.left = "-320px"
+  mascara.style.visibility = "hidden"
+}
+
+</script>
+
+</html>
+
+
+<!--
+
+O elemento HTML <input> é usado para criar controles interativos para formulários baseados na web para receber dados do usuário. A semântica de um <input> varia consideravelmente dependendo do valor de seu atributo type.
+placedor: é o texto que fica dentro da caixa de formulário antes de eu clicar nele, por exemplo "seu nome". É para digitar uma informação pequena. 
+Já p <textarea> é para digitar um texto muito maior.
+-  <input placeholder="Seu nome" type="text"> : o type é para dizer para o input que tipo de coisas a pesso vai preencher, se é texto, telefone, etc.
+
+-  <button onclick="cliqueiNoBotao"()>Fale Conosco</button>: esse onclick é um evento que acontece quando eu clico no botão, mas se eu digitar só on aparece outras opções de ações que podem ocorrer.
+
+-->
