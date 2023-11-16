@@ -1,5 +1,5 @@
 # Super Mario e Luigi
-![Design sem nome (1)](https://github.com/gyhbelchior/marioeluigi/assets/124063494/a4d37232-215b-4ecc-8f51-f1070df0c347)
+
 
 
 
