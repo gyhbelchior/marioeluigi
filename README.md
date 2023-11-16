@@ -10,6 +10,13 @@
 ## Link do projeto https://gyhbelchior.github.io/marioeluigi/
 <br/><br/>
 
+### 💻Tecnologias
+- HTML
+- CSS
+- JAVASCRIPT
+
+  
+
 
 
 
