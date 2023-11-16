@@ -10,6 +10,9 @@
 ## Sobre o projeto
 Projeto desenvolvido durante as aulas ao vivo do Rodolfo Mori do DevClub. Utilizamos JavaScript para realizar a movimentação do formulário, e todo o conteúdo da página foi feito em HTML e CSS.
 
+
+<br/></br>
+
 ## Link do projeto https://gyhbelchior.github.io/marioeluigi/
 <br/><br/>
 
