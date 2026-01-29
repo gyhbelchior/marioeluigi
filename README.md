@@ -25,7 +25,7 @@ Projeto Front-End que apresenta uma landing page temática inspirada nos famosos
 ## 🛠️ Tecnologias Utilizadas
 - HTML5
 - CSS3
-- JavaScript *(se houver interações no formulário)*
+- JavaScript 
 <br/></br>
 
 ## 🎯 Objetivo do Projeto
